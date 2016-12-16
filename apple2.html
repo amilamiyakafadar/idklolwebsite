@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>Apple</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-red w3-card-2 w3-left-align w3-large">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><a href="apple.html" class="w3-padding-large w3-hover-white">Home</a></li>
+    <li class="w3-hide-small"><a class="w3-padding-large w3-hover-white" href="apple1.html">Apple</a></li>
+    <li class="w3-hide-small"><a href="apple2.html" class="w3-padding-large w3-white">Mac</a></li>
+    <li class="w3-hide-small"><a href="apple3.html" class="w3-padding-large w3-hover-white">iPad</a></li>
+    <li class="w3-hide-small"><a href="apple4.html" class="w3-padding-large w3-hover-white">iPhone</a></li>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-large w3-black">
+      <li><a class="w3-padding-large" href="apple1.html">Apple</a></li>
+      <li><a class="w3-padding-large" href="apple2.html">Mac</a></li>
+      <li><a class="w3-padding-large" href="apple3.html">iPad</a></li>
+      <li><a class="w3-padding-large" href="apple4.html">iPhone</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center w3-padding-128">
+  <h1 class="w3-margin w3-jumbo">Mac</h1>
+  <button class="w3-btn w3-padding-16 w3-large w3-margin-top">ORDER NOW </button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1> Mac</h1>
+      <p class="w3-text-grey">
+The MacBook was a brand of notebook computers manufactured by Apple Inc. from May 2006 to February 2012, and relaunched in 2015. It replaced the iBook series and 12-inch PowerBook series of notebooks as a part of the Apple-Intel transition from PowerPC. Positioned as the low end of the MacBook family, below the premium ultra-portable MacBook Air and the powerful MacBook Pro, the MacBook was aimed at the consumer and education markets. It was the best-selling Macintosh ever. For five months in 2008, it was the best-selling laptop of any brand in US retail stores. Collectively, the MacBook brand is the "world's top-selling line of premium laptops.	</p>
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExIWFhUXFRYYFxUXEhYaFRcVFRYWFxgTFRgYHiogGBolGxYVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGi0iHiUwNS0xLSsvLS0tLS8tLSstLSs1Li0rLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS4tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAIDBQYHAQj/xABKEAABAwIDAwgGBgcHAgcAAAABAAIRAwQSITEFQVEGBxMiYXGBkTJSobHB0RRCYnKCshUjM1OS4fAWQ4PCw+LxVJMXJERjlNLT/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAlEQEBAAIBBAICAgMAAAAAAAAAAQIRAxITITFBUSIyYYFxkcH/2gAMAwEAAhEDEQA/AO4oiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiINV5ecpn2bGCk1pqVMUF4Ja1rYlxAIxGXNESPZno3/iBtD95R/7H+9bHzu0P1dvU4VHM8Hsxf6a0fZFmyoHYpkEaGMj/wALUm0t1NsuOcPaHrW/jbv+FVXGc41/vFsf8CoP9ZRP0LS+1/F/JP0JT4u8x8lrt1nuYsi3nJvN9O3P4Kg/zlXBzl3O+hRP4nj5rFfoSnxf5j5J+g2es/zb8k7dO5izA5zbj/paJ/x3j/IVWOc+t/0dL/5T/wD8VgzsNnrO9nyVH6Fb67vIJ28l7mLZGc5z99m3wuj8aQV5vObxtD4Vwfe0LVRsUeufIINjD94f4f5p26dzFto5zmb7Sp4VKfxIUe7537akQH21xJ3N6E5cT+sC1G/sAwftOsdBg9pz0Ws1OTpc4uNeSTmTT/3JOLL6TuYfbqNPnnsjrQuh+Cj8KqkN54dnnVlwO+k34PK5P/ZQ/vh/2/8AcvDyWd+9H8B+avaz+l7mH2683nb2b61Yf4DvgrredjZe+tUHfbVvg1caPJl4/vG/wn5rz+zj/wB43yKnaz+juYfbtbOdLZZ/9S4d9tcD/TU6x5fbNqvaxl3TxOIDQ4OZJOjR0gEk8FwQ8nn+u32/JRb/AGQ6mzE4tc2YIE7+8KXjynwszwviV9VItW5s9qm52dQe9xc9oNN5OpdScWhx7S0NPitpWFEREBERAREQEREBERAREQEREBERBqfOdQxWLnDVlSm7zeGH2OK5pyffD3Di33EfMrr/ACvt+ksrlo16F5He0Fw9oC4vsirFVvbI8wY+C1h7jOX61sznKS61PRh4dOUkYdBGLXuURxTpXBpZidhO7Fl3RGk7pXprzxcY9SLWk12IufhDY+rOR36iBp5qGxeseWmQY3btPEdyUiTVZhcWzMHI8QcwfEEFWg2XBo3mF61xJkknvM5bgjwDB4EHySF/hevLJ9LDiBh3ouiJWPvrsUm4tTuHH+Sk3d8QwB73OAMtDnTn5T7VgLl2Mku/4HALU8s3wmbT2eRSZcCqKgqQSA2MIcMt5ynJY0t3qkSGinidhGjcfVzM6Rxz1VwaKcXXJrNeS47/ABSvoFYUemwjBDXaicLjhDo1jFkozqiofXfhFPpKmATDBVIYMRxHqxETmgGULWG/lM7j8MjU2W8Woug9rmEgFonE2SWyZEZOgeKxpKfSHhhpCpUFMkksFSGkniIzHZovAMlcerztMtfCXX2ZVbQbcEN6N0QQ6XdbIEiIAnLXUhYjaNLFSePskjvGY9ynG/qikaAqEUyT1OpGZxEHq4tZOqsBZ45nZZnr+P8ABbJZcW08wm0pbdW5OjmVm9zxgdHd0bf4l1pfPnNbefR9rMYchUFWieGYxtJ8abR+JfQa8dmnuoiIogiIgIiICIiAiIgIiICIiAiIgor0w5rmnQgjzEL50oO6N7QdWOAPex0H3FfRy+duVlHo725ZwrPPg84x+ZWDaSV419MiHuewzqwgZdu/fxjJQ6Fxia13FoPmJV6gHOdDJxQdDGQEnPhku/JJcfN1P9OGFsviLxqDEY0ns+GXkqKtSN0+MK3VaWuh3pZHWdd8qhz1rHVx8Vm+0qtctLurlnmM9eIJyj5qm4uQ1pJP8+wKi5pvZTFV5GH74LhOktmRqPMcVgbm7LzO7cFcMdTSZZeXt/dl2AtxOcQcYLXdSDk1uUEHWfcrzHyFVs3ZdWu0uY5oaCRL6haJABjycPNQ6Tz8+Mq8c6fG9nJd+daTaVwBhxMxNAIc0U+s8ziB6QZt3DuB1nK012uR1yB1HepOyNlvuqhpsLAQ3ES8kDCCBuBkyRkom0rd9Gq6k+A5p3aEbnDsIzz4qzW9bS7s9DLZz3A9IWtaQXNxVAHDWIYCDpGfFGE72lo3AzIHirNrSFWoymXBuNwaHESATp7VK2rZm2qCkXB0tDgQCBBJGh7isY4THO3ft0z5cs+PHGzxir2fd9FUktxNIIIwgzKiU3HeqalUb9FVWGB2E8JyjTwK6XOS9LnOLK43OTwm7Jv+ie6W4muYQeyYzPt81AYdZXtJoc6CcuOXxyCquKQbETBEiYmJyOWkjPNXr89LPRfbA39waF1TrtmWOp1ct5pOBI8cPtX0/RqBzQ4GQ4Ag9hEhfMXKBkta7gSPAj+S7tzX7R6fZls4mXMZ0TuM0SacnvDQfFeTlmsq9eF3jG1IiLm0IiICIiAiIgIiICIiAiIgIiIC4Nzs0ej2jUO57Kb/ABjCfyLvK4zz70MNe2qetTe097XAj8xVgweyK80WdgI8iQp9C4LXSIIggtcSA5p1aY3LWuT9x+rI4O9hA/mska/EwOPDtXpn6vPf2ZWtdufhLsEgAdWZPacoVLqg3mBxMx7FHvaBpSSSW5dY03NBB0cJ3dqxlxdYshp/WanF09P4+jO3fldv7x72Cl0rcAfiHVfPcernorIyyme0THtEqK+6Y0DEHEmYhzRAaJcetqQIMb5EK41/9d+efatzLd1tm42TaXa3r6YcAcjBALS4NcPrgYgJiRnIIOYyCobUJJJJJJkk6knjmferuyKbH1cDwSC0wAYJcCMhJH1cWUq7tu3p0yw0wQ12KJcTIEQc8xOesaKbky/ldW4rVjtB9CsytTMOZO6QQQQQRIkZ6Srd/fPrVDVqPL3u1JY1u85AN3Z7/gob6kGSJG8cRvCyG0Bbiiw06tM1JAc1rnOcZGc6gZjiO5a1N7Z3fSMHwWuBgtIIjcQZBV/aO0n13BzyS5oIBhoyJmIaAoBdksvXr2jrRsYGXDdRmHOifCPRG8nVamEvlzz5Lhqa8VjzB10V64vC+AT6OgApgCexjGychmVCx5KigHyYpuMggODXESZGe7x4hYzsnnTp1ZSXSbjVVa7xQCdMvSJ3dpyyCiCpksk/az32ooEEgYcPoBowF0OkmdMIIjd2rPJlcdam/wDjWGO9+WL2i3FTcOyfLP4LoPMHtGadzbk+i9lVo7KjcBA8aYP4lz8PyWT5ob/oNqMYTlVZUonhIHSNJ8aZH4ljmnqunF6sfQyIi4OoiIgIiICIiAiIgIiICIiAiIgLmHP3bTaUanqVoPc9p+IC6etK54rXHsq4PqYKn8Lh8JSDg3J2vm8cQD5Ej4rN4wfSkjsMH2grTthXg6YDiCPj8FsxevTx3eLhn+yus5riJ6RwAgYq0xEwBLdM9EnhkN2c5d6kiqYENHotiGAzkJnLPOVFqmHEDQEx3SrhZ8GcVU6uHdmd+J4009EjQ5rzFviPFxntlxJVyxusBdMxDTAqBhMPbIDi4D0S7UjReXNQu0DoD3YWmoKj8JZTkkhzoGJr9+9cLz2c3R0+Ptro3h1b/oa/dhDiTlIJOe4Kro3tkmkGjeTRA3xnI4qPTxk9QEuGYgEkRocu1SH25xHDSpMaA5rS1lRtQtwvDWvlgGLEWE55Yd69cmN3uuflZcVWKrjvHg1o17gqHMLYnf2g+7RUyp7FxMRiA4xvEmD4eAVrEvMSCqVSV5K8RFcqlUSmJBdxKC29Nvc07gf3dSnVy4McC4eIaR4qRKhbSbkD3jzXPkm8XTj8ZPrCm8OAIMggEHsOiqWr82W0un2ZavJlzafROO/FRJpknvwz4raF5nYREQEREBERAREQEREBERAREQFiuVdp0tlc0/Wo1B44THtWVVL2yCDoRHmg+KtnPw1WH7QHnl8Vu1KrhMwD3gEeRWn7dtzSuazNCyq8fwvK2kPkA8Y9q7cXzHLkSjdngzWf2bPlmOxeOunEROXCAPcFm6HJN7qbqgrUyGta4tAeXQSJgEDQSfAhV1OTDQBFcvcfqtpxAaRikyQCAfNdcrMfFYkt9NebcPAIa9wB1AcQDu3Ia7zq9x73E66qul0Tpwh2TMf7amcgQHCMMiJJn7J4qbyfoUa9w1hDsADnO67cT8Iypgh2RJIEwO9c7y4b01MbZuMWvMIW03mxaTDTe5gptqhzcD6r4pPzwuqOEnOCI4qrk9s2k41HFgc3qtBexwa0wSSC+ATOHyyKs5JbpLjqbaw169xLoWwdntotq0nUMbKocWv6KXQeq6niicMQQTGpVY5N0RbdCbeoXlpDqmTSHBzTTfjkD0ZBAB1We9+Vx16bnHNb25yTlO46HdlrBVdGk55AY1ziRIDWkkjiAF1XatZtX6MarWtfbvDsb6lNrDAhwAxZhxDdQNFH2ztaxdWbVNzbB7WYDiuacuYDiDSGuJABnz3JOb85jZ4vz9MZYWY24+3NBbPhx6N8NMOOB0NI1DjGRz3q6dm1eiFbAejLsOLL0uHYtx2ptrZhqtrNuaLC2SBTD3jE5rWF3VbE4WtGm7tKxdXlNs6crio5pfjLW2zxLstC5ogZAwukzx2lxy1PDFXGwqrC0PgYmhzYOKZIAGW/NR7LZj6tRlNgMvnN7HMDS3FIfI6vonzHFZW+5YWDm4C27qANwt9FuEAggB2ORm1ufYrFhy1tKDCylaViJkY6+YyAyJxEDIZAxktZZ8cngxwzs8x5W5N1aZAqFoBBILSXAkfVJAyOmuqwW0aJAc0gggBwkajUHxCzdbnCaRAsWEfbuHO9mALD7c5UOuQwdBSp4JALA6cJHoHOMPhu71yuc/p0x47/AG6fzA7SxUbm3JzZUbUaODarcJA/FTJ/Eurr555lL80tpNZ9WtSqUz95sVG/kcPFfQy4OtEREQREQEREBERAREQEREBERAREQfJvO1ZdFtW6EZOqYx3PAd8V5yb2/bUn0nXGMtptktYwEl7RDR1iBE5zO5blz6cnqj9osqU6bndLRHojKaZwuk6DLBrxWi0eRF07Wnh76jPgSrMtJZtt45wtnNcXMt7kkzMlgBB1B65juUatzoUMRLbBxJiXPuTJA0BhmYCwh5v67Y6R1GmDoX1S2e6QAVXR5I0xINag8tEuwXLDA44JxbxoClzt9kx0knnKDf2VhQac9SXDPsAHvVoc6N5OVO2b3UT8XKPT2bZgwa9HtOG4dHaYpxCkV7ezpmDUxTo6nQDmOExIe97RHaVOpelTcc4O0H5dMxg4Mt6IHtaVGbyv2hqLqqPuhjfytCnvr2jQCBVe7VzA2kxwEEzkXgiBPYvGbUtsLoo1MUS2a2IZCTjaykCBukEj2w6l0xT9q3z83XFyZ/8Afq//AGUapQrP9Mvd995P5isxT28wGfotIgGCC+sZ00eKmEHXdHarf6dqYobTpN1LYoUySASAP1gOL8J8U2aYhuzD6rR5KTR2TUd6In7oJ9wUutyguHEubUwDqyKbWsa2RBPVAIz4SM9Var7YuX4Qbir1QYms6CMiASMnb9Y11OibF1vJuv8Auqg7TTcB5kBeu5PvaMTixoBAJdWpNgnQGXarHV3l/pOLhM5ycJ0JzPE7jByndB7DwzAEmIBBzBMgbxoU8qyP6JYASa9EQJP63EY7AwGfBess7eJNy3Qnq0qxmJyGJrROW8hYws6ozyziTp/Q7BmrjaWWoBneDOYEPHVkDeiJ1L6JvfWOR0oMGe4Z1VkLO+swB/5J7yNS6s4HTI4QCM1hKVExvGncc94nj81Ls7XKYy0BlvtyjwkoNw5LbXpiq2oy0o03U5IOKajTBEgkiN66HYcusRghwHbhI9hz8FzPk2wiWh0gbmlzxwkuY0hvYMis7abLqSSzps9WC1qYB9suqOYHDsBJkjKER0uz5WUn/WYe50e/5rK0dq03b47xl5hcmOwLou6tLIx1ntoMjjOb3Hs0WQstgXTfrMBkHF09UAAEZGnSADvFwHeg6pTrNdo4HuKrWjUKVziBfVoxObW0XSR2OxiD2we5Zand1G6OPjn70GxosLT2s4atB9hUqntZh1BHhI9iDIIrNO6Y7Rw88/JXkBERAREQEREBERBC2rYCszDiwnKHACRBBIz3GII4FaXtTY4FSA0Nl7GtLDiYS5ji4uAMsAc2J+0Mlte2LjrBm6JPbwCxVSkRp7P6yVkGi3uyKNdgL2tewzheIIy1g7iOGq1LanIV7YNBxc0GQwmHD7roldfsaVOkMApgU+v1Gjqy8tJJboTLcoiJPFe3GxWuGKi78JOXcDqPFLNG3zltC1qtfD2uD+GEgiBxgYjG/erbKs4W9VmeZjC07pcBI0ykNnNdw2tsOnVGCvRB+80SO1p+IWsu5uLck/ragbOQAZI7JcD7llXO7tvRuLYIBGI03QWguAILCOyIdAkdi9ZbYqWKcRaQJkhzSZPE4m5a5RkurU+Rdrhwv6SoQZxvqEP7sTMJhSrPkrZ0iHMoDEDIc573meMvcVRxyjhNTrktDiJe4dWAZONrQS7doV620qENApkgnE0ycLh9mPHMFdwo7It2GWW9FpOZIosBJ4yApjGxkMu5TZtxG22DXqgYaFYO6rRNF+GPWxQI8ZUynyOvzl0EQfS6SmBkAMhijdrErskIAg5JR5D3X1n0Rrq57onXIMIBU6hyAdILrgAj1aROnAl4XTH0QdQrTrLgfNBo1LkJR+tVqnuwN94cp1LkdaDVj3fequ/yYVs7rcjUL1tLsVRiLfk7at0t2H7wLvzkrL21lTbEU2CAAIptEAaAQNFeZbngVfbTjWPNBIokhXxVKjNqNG/yC9Ndvb7AqiWKoVUrFXF/hLYa3CZxEviMsiOOcKJc8pKDPSrUW/jBPvU0rYF4tMr8vrUf3+L7jCfcFAq84VM+hRrv7wGj2lB0ElUmoOIXOf7X3b/2Vl/E4n8oVQutr1PRbTpjspz+Yq6HQjVC9bfObo4jxy8lottsTaLiDUuj3aDxDdVvGwC6l6dKiT67KeF/ic5TQ2bZ1RzqYL9TO6MpyUlUUqgcARoVWoCIiAiIgIiINZ2u+aruyB7FapV41zEjvy3e0qu6pkvceJKt9AVoVihjGWuf9dihODmOkEg/15hTG0nAyDClAhwh48f60V2iJT2ix4w1mjvjLv4tVFxsn61M4hwn3Heq7nZRGYzHtUaiKlMy0943HvCalEY0iDBEHgvRTU+/usdOMJDuIEjwK1ardvZ6VYj+u5Z6TbOCkhYBqQPFapccoGD61R/cCfesfV5Qu+pbvd3mFNK3c1GD64859ypN1T4k+HzWhP2teu9C3aO+SrZobVqaEN7qY95V0N+N63c0+JAVqptMDXC3vd/wtHHJLaNT07ip3YoHsVylzZvd+0quPeSU0NkueVNBnpXFIdzgfmsZX5fWo0rOd9xjv5L215saQ1k+AWWtuQVBv1J700jWa3OAw+hQrP74HvVn+2d27KlaAfecT7gugUOStJulNvkp9DYoGjfIIrmH07a1XQNYOyn8XKpuwdpVPTuXjsDg33LrVPY59U+XzUinsY9g8UHI6fN692dWs53e5x95WRtebmgNQSupDZH2h5K6zZTd7ifIINBteRlu3+7HispQ2HSboxo8AtwZs+mPqz3kq8yi0aNA8AmxrNHZ3Bp8ApdPZbvV8yFn0UGJZso7yB7VfZswb3HwyU9EFNNgaABoFUiICIiAiIgLwr1EEA2ifRFPRUQPoqfRFPRBDZQhH2gduzUxFBjXbOCi1tg03+kJ8FnEV2NdHJej6gV5nJ+kNGDyWcRQYpuymD6o8lWNnt4LJIggCyHBei0HBTkQQvo3Yn0dTUQQfoylUKeEQriICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiD/9k=">    
+</div>
+
+ 
+  </div>
+</div>
+</div>
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  
+    </div>
+</div>
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>Apple</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-red w3-card-2 w3-left-align w3-large">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><a href="apple.html" class="w3-padding-large w3-white">Home</a></li>
+    <li class="w3-hide-small"><a class="w3-padding-large w3-hover-white" href="apple1.html">Apple</a></li>
+    <li class="w3-hide-small"><a href="apple2.html" class="w3-padding-large w3-hover-white">Mac</a></li>
+    <li class="w3-hide-small"><a href="apple3.html" class="w3-padding-large w3-hover-white">iPad</a></li>
+    <li class="w3-hide-small"><a href="apple4.html" class="w3-padding-large w3-hover-white">iPhone</a></li>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-large w3-black">
+      <li><a class="w3-padding-large" href="apple1.html">Apple</a></li>
+      <li><a class="w3-padding-large" href="apple2.html">Mac</a></li>
+      <li><a class="w3-padding-large" href="apple3.html">iPad</a></li>
+      <li><a class="w3-padding-large" href="apple4.html">iPhone</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center w3-padding-128">
+  <h1 class="w3-margin w3-jumbo">Apple</h1>
+  <button class="w3-btn w3-padding-16 w3-large w3-margin-top">Order Now</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Apple</h1>
+      <p class="w3-text-grey">Were apple. Thats good enough</p>
+    </div>
+
+    <div class="w3-third w3-center">
+     <img src="data:image/png;base64,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">
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
